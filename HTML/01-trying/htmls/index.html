@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self';">
     
     <title>My first project</title>
     <meta name="description" content="На этом сайте вы увидите мои первые шаги в HTML&#41">
     <meta name="author" content="tr1fker">
 
-    <link rel="icon" href="images/logo.jpg">
+    <link rel="logo" href="../media/images/icon.jpg">
 </head>
 <body>
     <p id="start">Начало</p>
+    <a href="#end-page">В конец</a>
     <h1>Этот текст и вправду большой?</h1>
     <h2>Интересно посмотреть на сколько текст с тегом &lth2&gt будет меньше?</h2>
     <h3>И вправду всё меньше и меньше!!!</h3>
@@ -70,6 +72,11 @@
     <p hidden>Этот текст спрятан?!?</p>
     <p>А этот текст не спрятан?(hidden). Гы-гы&#41</p>
     <p title="Убери курсор с меня!">Я подсказка</p><br>
-    Лучше перейди <a href="#start">сюда</a>
+    Лучше перейди <a href="#start">сюда</a><br>
+    <a href="third-page.html">Списки</a> &lt- кликай<br>
+    <a href="fours-page.html">Таблицы</a><br>
+    <a href="media-page.html">Медиа</a>
+
+    <h3 id="end-page">Конец</h3>
 </body>
 </html>
