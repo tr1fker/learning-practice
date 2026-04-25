@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="index.html">Вернуться</a><br>
+    <form>
+        <label for="email">Email:</label><!--for тут значение указываем идентификатора - это через for-->
+        <input type="email" id="email"><br>
+        <label>Имя:<input type="text"></label><!--через обёртку(не через for)-->
+    </form>
+    <form>
+        <input type="file" accept="image/png" multiple>
+    </form>
+    <h3>Регистрация</h1>
+    <form>
+        <label>Логин:<input type="text" required minlength="4" maxlength="20" pattern="[0-9A-Za-z_]+"></label><br>
+        <label>Gmail:<input type="email" required></label><br>
+        <label>Пароль:<input type="password" required minlength="8" maxlength="100"></label><br>
+        <button onclick="alert('Не удалось&#41')">Зарегистрироваться</button>
+    </form>
+    <script src="../js/javascript.js"></script>
+    <script>
+        console.log("логи..")
+    </script>
+</body>
+</html>
