@@ -70,3 +70,7 @@
     font-family: 'test-font';
 }
 */
+
+.variant-font {
+    font-variant:small-caps;
+}
