@@ -1,27 +1,34 @@
 [value="first-text"] {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
 }
 
 [valuelol] {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
 }
 
 [value^="third"] {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style:oblique;
 }
 
 [value$="rs-text"] {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:normal;
 }
 
 [valuecon*="te"] {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
 }
 
 [value~="title"] {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:oblique;
 }
 
 [value|="seves"] {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:normal;
 }
