@@ -46,3 +46,11 @@
     font-size: xx-large;
     font-weight: bolder;
 }
+
+.shorthand-first {
+    font: caption;
+}
+
+.shorthand-second {
+    font: 3rem 'Impact';
+}
