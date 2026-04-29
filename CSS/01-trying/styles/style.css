@@ -49,8 +49,24 @@
 
 .shorthand-first {
     font: caption;
-}
+}s
 
 .shorthand-second {
     font: 3rem 'Impact';
 }
+
+.google-font {
+    font-family: "Playwrite NZ Guides";
+    font-size: xx-large;
+}
+
+/* Не работает(
+@font-face {
+    font-family: 'test-font';
+    src: url('DynaPuff/fonts/static/DynaPuff_Bold.ttf') format(truetype);
+}
+
+.downloaded-font {
+    font-family: 'test-font';
+}
+*/
