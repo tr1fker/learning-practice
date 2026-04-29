@@ -1,0 +1,76 @@
+[value="first-text"] {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+[valuelol] {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+[value^="third"] {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 3em;
+    font-weight: lighter; 
+}
+
+[value$="rs-text"] {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+[valuecon*="te"] {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: larger;
+    font-weight: normal;
+}
+
+[value~="title"] {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-size: smaller;
+    font-weight: normal;
+}
+
+[value|="seves"] {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.shorthand-first {
+    font: caption;
+}s
+
+.shorthand-second {
+    font: 3rem 'Impact';
+}
+
+.google-font {
+    font-family: "Playwrite NZ Guides";
+    font-size: xx-large;
+}
+
+/* Не работает(
+@font-face {
+    font-family: 'test-font';
+    src: url('DynaPuff/fonts/static/DynaPuff_Bold.ttf') format(truetype);
+}
+
+.downloaded-font {
+    font-family: 'test-font';
+}
+*/
+
+.variant-font {
+    font-variant:small-caps;
+}
