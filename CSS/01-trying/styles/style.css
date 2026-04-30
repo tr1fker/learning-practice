@@ -8,6 +8,8 @@
     direction: rtl;
     text-decoration: underline;
     text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 90px;
 }
 
 [valuelol] {
@@ -85,6 +87,9 @@
 .google-font {
     font-family: "Playwrite NZ Guides";
     font-size: xx-large;
+    text-align: center;
+    letter-spacing: 0.2em;
+    word-spacing: 2em;
 }
 
 /* Не работает(
