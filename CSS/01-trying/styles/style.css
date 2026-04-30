@@ -22,6 +22,7 @@
     direction: ltr;
     text-decoration: overline;
     text-transform: lowercase;
+    text-shadow: 0em 0em 2em purple;
 }
 
 [value^="third"] {
@@ -113,4 +114,5 @@
     text-align: center;
 
     line-height: 1.5em;
+    text-shadow: 1em 1em 2em black;
 }
