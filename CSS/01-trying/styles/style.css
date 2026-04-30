@@ -35,6 +35,7 @@
     font-weight: bolder;
 
     color: blanchedalmond;
+    text-align: center;
 }
 
 [valuecon*="te"] {
@@ -44,6 +45,7 @@
     font-weight: normal;
 
     color: navy;
+    text-align: end;
 }
 
 [value~="title"] {
@@ -53,6 +55,7 @@
     font-weight: normal;
 
     color: chocolate;
+    text-align: left;
 }
 
 [value|="seves"] {
@@ -62,11 +65,12 @@
     font-weight: bolder;
 
     color: brown;
+    text-align: right;
 }
 
 .shorthand-first {
     font: caption;
-}s
+}
 
 .shorthand-second {
     font: 3rem 'Impact';
