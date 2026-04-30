@@ -6,6 +6,7 @@
 
     color: red;
     direction: rtl;
+    text-decoration: underline;
 }
 
 [valuelol] {
@@ -16,6 +17,7 @@
 
     color: purple;
     direction: ltr;
+    text-decoration: overline;
 }
 
 [value^="third"] {
@@ -26,6 +28,7 @@
 
     color: yellowgreen;
     direction: rtl;
+    text-decoration: line-through;
 }
 
 [value$="rs-text"] {
