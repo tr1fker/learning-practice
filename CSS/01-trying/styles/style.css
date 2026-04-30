@@ -3,6 +3,8 @@
     font-style: normal;
     font-size: 30px;
     font-weight: normal;
+
+    color: red;
 }
 
 [valuelol] {
@@ -10,6 +12,8 @@
     font-style: italic;
     font-size: 2.3rem;
     font-weight: bold;
+
+    color: purple;
 }
 
 [value^="third"] {
@@ -17,6 +21,8 @@
     font-style: oblique;
     font-size: 3em;
     font-weight: lighter; 
+
+    color: yellowgreen;
 }
 
 [value$="rs-text"] {
@@ -24,6 +30,8 @@
     font-style: normal;
     font-size: 200%;
     font-weight: bolder;
+
+    color: blanchedalmond;
 }
 
 [valuecon*="te"] {
@@ -31,6 +39,8 @@
     font-style: italic;
     font-size: larger;
     font-weight: normal;
+
+    color: navy;
 }
 
 [value~="title"] {
@@ -38,6 +48,8 @@
     font-style: oblique;
     font-size: smaller;
     font-weight: normal;
+
+    color: chocolate;
 }
 
 [value|="seves"] {
@@ -45,6 +57,8 @@
     font-style: normal;
     font-size: xx-large;
     font-weight: bolder;
+
+    color: brown;
 }
 
 .shorthand-first {
