@@ -107,6 +107,7 @@
 
 .variant-font {
     font-variant:small-caps;
+    opacity: 0.2;
 }
 
 .some-text {
