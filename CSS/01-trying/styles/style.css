@@ -5,6 +5,7 @@
     font-weight: normal;
 
     color: red;
+    direction: rtl;
 }
 
 [valuelol] {
@@ -14,6 +15,7 @@
     font-weight: bold;
 
     color: purple;
+    direction: ltr;
 }
 
 [value^="third"] {
@@ -23,6 +25,7 @@
     font-weight: lighter; 
 
     color: yellowgreen;
+    direction: rtl;
 }
 
 [value$="rs-text"] {
