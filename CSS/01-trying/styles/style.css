@@ -7,6 +7,7 @@
     color: red;
     direction: rtl;
     text-decoration: underline;
+    text-transform: uppercase;
 }
 
 [valuelol] {
@@ -18,6 +19,7 @@
     color: purple;
     direction: ltr;
     text-decoration: overline;
+    text-transform: lowercase;
 }
 
 [value^="third"] {
@@ -29,6 +31,7 @@
     color: yellowgreen;
     direction: rtl;
     text-decoration: line-through;
+    text-transform: capitalize;
 }
 
 [value$="rs-text"] {
