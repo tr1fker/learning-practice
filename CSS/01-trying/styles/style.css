@@ -141,6 +141,8 @@ body {
     background-size: contain;
 
     height: 9em;
+
+    background-attachment: fixed;
 }
 
 .image-alex{
