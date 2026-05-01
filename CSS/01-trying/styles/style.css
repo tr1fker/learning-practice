@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(270deg, rgb(177, 63, 177), pink);
+    padding-top: 1em;
 }
 
 [value="first-text"] {
@@ -149,6 +150,8 @@ body {
     height: 9em;
 
     background-attachment: fixed;
+
+    padding: 20em 1em;
 }
 
 .image-alex{
