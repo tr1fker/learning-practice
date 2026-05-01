@@ -32,6 +32,8 @@ body {
     text-shadow: 0em 0em 2em purple;
 
     background-color: yellow;
+
+    margin: 1em 3em 2em 3em;
 }
 
 [value^="third"] {
@@ -59,6 +61,8 @@ body {
     line-height: 3;
 
     background-color: rgb(65, 167, 114);
+
+    margin: 1em 1em;
 }
 
 [valuecon*="te"] {
@@ -101,6 +105,8 @@ body {
     font: caption;
 
     background-color: rgba(255 0 0 / .5);
+
+    margin: 1em 3em;
 }
 
 .shorthand-second {
@@ -161,4 +167,6 @@ body {
     background-size: contain;
     background-color: hsla(10 10 10 / .5);
     height: 20em;
+
+    margin: 1em 10em;
 }
