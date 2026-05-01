@@ -57,6 +57,8 @@ body {
 
     width: 15em;
     height: 3em;
+
+    box-shadow: 0 0 0.3em 0.3em rgb(227, 227, 75);
 }
 
 [value$="rs-text"] {
@@ -76,6 +78,8 @@ body {
     border-style: solid;
     border-radius: 1em;
     border-width: .2em;
+
+    box-shadow: inset -.2em -.2em 0.3em 0.3em rgb(69, 216, 113);
 }
 
 [valuecon*="te"] {
