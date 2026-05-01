@@ -17,6 +17,8 @@ body {
     word-spacing: 90px;
 
     background-color: purple;
+
+    border: 0.3em double pink;
 }
 
 [valuelol] {
@@ -35,6 +37,8 @@ body {
     background-color: yellow;
 
     margin: 1em 3em 2em 3em;
+
+    border: 0.5em dashed red;
 }
 
 [value^="third"] {
@@ -68,6 +72,10 @@ body {
     background-color: rgb(65, 167, 114);
 
     margin: 1em 1em;
+
+    border-style: solid;
+    border-radius: 1em;
+    border-width: .2em;
 }
 
 [valuecon*="te"] {
@@ -80,6 +88,8 @@ body {
     text-align: end;
 
     background-color: rgb(36, 138, 87);
+
+    border: 0.3em dotted black;
 }
 
 [value~="title"] {
