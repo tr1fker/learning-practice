@@ -18,7 +18,7 @@ body {
 
     background-color: purple;
 
-    border: 0.3em double pink;
+    border: 0.3rem double pink;
 }
 
 [valuelol] {
@@ -55,8 +55,8 @@ body {
 
     background-color: blue;
 
-    width: 15em;
-    height: 3em;
+    width: 15vw;
+    height: 3vh;
 
     box-shadow: 0 0 0.3em 0.3em rgb(227, 227, 75);
 }
@@ -73,7 +73,7 @@ body {
 
     background-color: rgb(65, 167, 114);
 
-    margin: 1em 1em;
+    margin: 1rem 1rem;
 
     border-style: solid;
     border-radius: 1em;
