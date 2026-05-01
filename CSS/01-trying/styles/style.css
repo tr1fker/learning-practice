@@ -30,6 +30,7 @@ body {
     text-decoration: overline;
     text-transform: lowercase;
     text-shadow: 0em 0em 2em purple;
+    text-align: center;
 
     background-color: yellow;
 
@@ -46,8 +47,12 @@ body {
     direction: rtl;
     text-decoration: line-through;
     text-transform: capitalize;
+    text-align: center;
 
     background-color: blue;
+
+    width: 15em;
+    height: 3em;
 }
 
 [value$="rs-text"] {
@@ -107,6 +112,8 @@ body {
     background-color: rgba(255 0 0 / .5);
 
     margin: 1em 3em;
+
+    height: 3em;
 }
 
 .shorthand-second {
