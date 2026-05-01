@@ -1,8 +1,24 @@
+body {
+    background: linear-gradient(270deg, rgb(177, 63, 177), pink);
+    padding-top: 1em;
+}
+
 [value="first-text"] {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: normal;
     font-size: 30px;
     font-weight: normal;
+
+    color: red;
+    direction: rtl;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 90px;
+
+    background-color: purple;
+
+    border: 0.3rem double pink;
 }
 
 [valuelol] {
@@ -10,6 +26,19 @@
     font-style: italic;
     font-size: 2.3rem;
     font-weight: bold;
+
+    color: purple;
+    direction: ltr;
+    text-decoration: overline;
+    text-transform: lowercase;
+    text-shadow: 0em 0em 2em purple;
+    text-align: center;
+
+    background-color: yellow;
+
+    margin: 1em 3em 2em 3em;
+
+    border: 0.5em dashed red;
 }
 
 [value^="third"] {
@@ -17,6 +46,19 @@
     font-style: oblique;
     font-size: 3em;
     font-weight: lighter; 
+
+    color: yellowgreen;
+    direction: rtl;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    text-align: center;
+
+    background-color: blue;
+
+    width: 15vw;
+    height: 3vh;
+
+    box-shadow: 0 0 0.3em 0.3em rgb(227, 227, 75);
 }
 
 [value$="rs-text"] {
@@ -24,6 +66,20 @@
     font-style: normal;
     font-size: 200%;
     font-weight: bolder;
+
+    color: blanchedalmond;
+    text-align: center;
+    line-height: 3;
+
+    background-color: rgb(65, 167, 114);
+
+    margin: 1rem 1rem;
+
+    border-style: solid;
+    border-radius: 1em;
+    border-width: .2em;
+
+    box-shadow: inset -.2em -.2em 0.3em 0.3em rgb(69, 216, 113);
 }
 
 [valuecon*="te"] {
@@ -31,6 +87,13 @@
     font-style: italic;
     font-size: larger;
     font-weight: normal;
+
+    color: navy;
+    text-align: end;
+
+    background-color: rgb(36, 138, 87);
+
+    border: 0.3em dotted black;
 }
 
 [value~="title"] {
@@ -38,6 +101,11 @@
     font-style: oblique;
     font-size: smaller;
     font-weight: normal;
+
+    color: chocolate;
+    text-align: left;
+
+    background-color: black;
 }
 
 [value|="seves"] {
@@ -45,19 +113,37 @@
     font-style: normal;
     font-size: xx-large;
     font-weight: bolder;
+
+    color: brown;
+    text-align: right;
+
+    background: radial-gradient(circle, blue, yellow);
 }
 
 .shorthand-first {
     font: caption;
-}s
+
+    background-color: rgba(255 0 0 / .5);
+
+    margin: 1em 3em;
+
+    height: 3em;
+}
 
 .shorthand-second {
     font: 3rem 'Impact';
+
+    background-color: #FFF;
 }
 
 .google-font {
     font-family: "Playwrite NZ Guides";
     font-size: xx-large;
+    text-align: center;
+    letter-spacing: 0.2em;
+    word-spacing: 2em;
+
+    background-color: hsl(50, 100%, 50%);
 }
 
 /* Не работает(
@@ -73,4 +159,35 @@
 
 .variant-font {
     font-variant:small-caps;
+    opacity: .2;
+
+    background: linear-gradient(45deg, red, blue);
+}
+
+.some-text {
+    font-size: 1.5em;
+    text-align: center;
+
+    line-height: 1.5em;
+    text-shadow: 1em 1em 2em black;
+
+    background-image: url("../images/alex.jpg");
+    background-size: contain;
+
+    height: 9em;
+
+    background-attachment: fixed;
+
+    padding: 20em 1em;
+}
+
+.image-alex{
+    background-image: url("../images/alex.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsla(10 10 10 / .5);
+    height: 20em;
+
+    margin: 1em 10em;
 }
