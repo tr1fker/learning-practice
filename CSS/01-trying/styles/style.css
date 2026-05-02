@@ -19,6 +19,8 @@ body {
     background-color: purple;
 
     border: 0.3rem double pink;
+
+    width: calc(100% - 30em);
 }
 
 [valuelol] {
@@ -55,8 +57,8 @@ body {
 
     background-color: blue;
 
-    width: 15vw;
-    height: 3vh;
+    width: min(15vw);
+    height: max(3vh);
 
     box-shadow: 0 0 0.3em 0.3em rgb(227, 227, 75);
 }
@@ -174,7 +176,7 @@ body {
     background-image: url("../images/alex.jpg");
     background-size: contain;
 
-    height: 9em;
+    height: clamp(5em, 6em, 7em);
 
     background-attachment: fixed;
 
