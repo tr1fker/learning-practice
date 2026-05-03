@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+.sp-01 {
+    background-color: red;
+    padding: 10px;
+}
+
+.sp-02 {
+    display: block;
+    background-color: antiquewhite;
+    padding: 10px;
+    width: 30vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.block {
+    color: aquamarine;
+    display: inline;
+}
