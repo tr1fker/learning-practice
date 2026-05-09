@@ -19,6 +19,16 @@ body {
     left:30vw;
 }
 
+.sp-02::before {
+    content: "before ";
+    background-color: red;
+}
+
+.sp-02::after {
+    content: " after";
+    background-color: red;
+}
+
 .sp-02:hover {
     background-color: red;
 }
