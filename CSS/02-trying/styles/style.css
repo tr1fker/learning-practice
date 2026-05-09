@@ -21,3 +21,15 @@ body {
     color: aquamarine;
     display: inline;
 }
+
+.el-01 {
+    display: inline;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.el-02 {
+    display: inline;
+    background-color: antiquewhite;
+    color: black;
+}
