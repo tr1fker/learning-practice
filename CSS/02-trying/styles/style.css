@@ -34,3 +34,7 @@ body {
     background-color: antiquewhite;
     color: black;
 }
+
+.el-03 {
+    display: none;
+}
