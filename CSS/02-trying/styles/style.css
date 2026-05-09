@@ -26,6 +26,7 @@ body {
     display: inline;
     background-color: antiquewhite;
     color: black;
+    position: static;
 }
 
 .el-02 {
