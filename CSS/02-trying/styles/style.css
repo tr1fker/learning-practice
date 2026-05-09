@@ -53,9 +53,12 @@ body {
 }
 
 .el-07 {
+    color: blue;
+    font-weight: bolder;
     position: relative;
-    top: 0.7em;
+    top: 0.8em;
     left: 1em;
+    z-index: 3;
 }
 
 .el-08 {
@@ -63,7 +66,10 @@ body {
 }
 
 .el-09 {
+    color: purple;
+    font-weight: bolder;
     top: 0.5em;
     left: 1em;
     position: absolute;
+    z-index: -1;
 }
