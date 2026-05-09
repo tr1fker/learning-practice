@@ -38,3 +38,8 @@ body {
 .el-03 {
     display: none;
 }
+
+.el-04 {
+    background-color: antiquewhite;
+    visibility: hidden;
+}
