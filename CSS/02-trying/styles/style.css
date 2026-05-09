@@ -29,7 +29,8 @@ body {
 }
 
 .el-02 {
-    display: inline;
+    margin: 10px;
+    display: inline-block;
     background-color: antiquewhite;
     color: black;
 }
