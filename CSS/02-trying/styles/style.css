@@ -46,3 +46,8 @@ body {
     background-color: antiquewhite;
     visibility: hidden;
 }
+
+.el-06 {
+    top: 1em;
+    position: sticky;
+}
