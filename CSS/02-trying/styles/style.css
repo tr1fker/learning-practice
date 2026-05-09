@@ -51,3 +51,9 @@ body {
     top: 1em;
     position: sticky;
 }
+
+.el-07 {
+    position: relative;
+    top: 0.7em;
+    left: 1em;
+}
