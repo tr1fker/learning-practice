@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+}
+
+.sp-01 {
+    background-color: red;
+    padding: 10px;
+}
+
+.sp-02 {
+    display: block;
+    background-color: antiquewhite;
+    padding: 10px;
+    width: 30vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    position:fixed;
+    left:30vw;
+}
+
+.sp-02::before {
+    content: "before ";
+    background-color: red;
+}
+
+.sp-02::after {
+    content: " after";
+    background-color: red;
+}
+
+.sp-02:hover {
+    background-color: red;
+}
+
+.block {
+    color: aquamarine;
+    display: inline;
+}
+
+.el-01 {
+    display: inline;
+    background-color: antiquewhite;
+    color: black;
+    position: static;
+}
+
+.el-02 {
+    margin: 10px;
+    display: inline-block;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.el-03 {
+    display: none;
+}
+
+.el-04 {
+    background-color: antiquewhite;
+    visibility: hidden;
+}
+
+.el-06 {
+    top: 1em;
+    position: sticky;
+}
+
+.el-07 {
+    color: blue;
+    font-weight: bolder;
+    position: relative;
+    top: 0.8em;
+    left: 1em;
+    z-index: 3;
+}
+
+.el-08 {
+    position: relative;
+}
+
+.el-09 {
+    color: purple;
+    font-weight: bolder;
+    top: 0.5em;
+    left: 1em;
+    position: absolute;
+    z-index: -1;
+}
